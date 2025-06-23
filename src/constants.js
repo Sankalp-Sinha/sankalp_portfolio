@@ -43,6 +43,7 @@ import convexLogo from './assets/tech_logo/convex.png';
 import iiitLogo from './assets/education_logo/iiit_bhagalpur_logo.png';
 import davLogo from './assets/education_logo/dav_gandhinagar_logo.png';
 import smsLogo from './assets/education_logo/sms_logo.png';
+import pycLogo from './assets/company_logo/pyc_logo.png'
 
 // Project Section Logo's
 import codesync_logo from './assets/work_logo/codesync_logo.png';
@@ -134,39 +135,6 @@ export const SkillsInfo = [
         // " Next Js",
       ],
     },
-    // {
-    //   id: 1,
-    //   img: agcLogo,
-    //   role: "Fullstack Engineer",
-    //   company: "Agumentik Group of Companies",
-    //   date: "July 2023 - March 2024",
-    //   desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    //   skills: [
-    //     "ReactJS",
-    //     "Redux",
-    //     "JavaScript",
-    //     "Tailwind CSS",
-    //     "HTML",
-    //     "CSS",
-    //     "SQL",
-    //   ],
-    // },
-    // {
-    //   id: 2,
-    //   img: newtonschoolLogo,
-    //   role: "Frontend Intern",
-    //   company: "Newton School",
-    //   date: "September 2021 - August 2022",
-    //   desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    //   skills: [
-    //     "HTML",
-    //     "CSS",
-    //     "Javascript",
-    //     "Bootstrap",
-    //     "Figma",
-    //     "Material UI",
-    //   ],
-    // },
   ];
   
   export const education = [
@@ -239,64 +207,39 @@ export const SkillsInfo = [
       github: "https://github.com/Sankalp-Sinha/search_engine_llm",
       webapp: "https://searchenginellm-djsyqkhfwib8zbb4gqz6cb.streamlit.app/",
     },
-    // {
-    //   id: 3,
-    //   title: "Email Validator NPM Package",
-    //   description:
-    //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    //   image: npmLogo,
-    //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-    //   github: "https://github.com/codingmastr/cmtk-email-validator",
-    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    // },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Webverse Digital",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: webverLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    //   github: "https://github.com/codingmastr/Webverse-Digital",
-    //   webapp: "https://webversedigital.com/",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Coding Master",
-    //   description:
-    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    //   image: cmLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //   github: "https://codingmasterweb.in/",
-    //   webapp: "https://codingmasterweb.in/",
-    // },
-    // {
-    //   id: 7,
-    //   title: "Image Search App",
-    //   description:
-    //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    //   image: imagesearchLogo,
-    //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    //   github: "https://github.com/codingmastr/Image-Search-App",
-    //   webapp: "https://imagsearch.netlify.app/",
-    // },
-    // {
-    //   id: 8,
-    //   title: "Image Background Remover",
-    //   description:
-    //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    //   image: removebgLogo,
-    //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    //   github: "https://github.com/codingmastr/Image-Background-Remover",
-    //   webapp: "https://removeyourbg.netlify.app/",
-    // },
+  ];
+
+
+    export const por = [
+    {
+      id: 0,
+      img: iiitLogo,
+      role: "Training and Placement Coordinator",
+      company: "IIIT Bhagalpur",
+      date: "Feb 2025 - Present",
+      desc : "Serving as the Training and Placement Cell Coordinator at IIIT Bhagalpur, leading student placement activities, industry outreach, and recruiter engagement. Coordinated between companies and students, organized drives, and ensured smooth onboarding processes. This role strengthened my leadership, communication, and organizational abilities, and showcased my commitment to enabling career success for my peers through structured planning.",
+      skills: [
+        "Leadership",
+        "Effective Communication",
+        "Team Coordination",
+        "Problem Solving",
+        "Corporate Outreach",
+      ],
+    },
+
+    {
+      id: 1,
+      img: pycLogo,
+      role: "PyC Mentor",
+      company: "IIIT Bhagalpur",
+      date: "Aug 2024 - Present",
+      desc : "Served as a PyC Mentor at IIIT Bhagalpur, guiding first-year students in competitive programming and problem-solving. Hosted coding contests, conducted doubt-clearing sessions, and fostered a collaborative learning environment. This role enhanced my mentorship, communication, and technical skills while allowing me to contribute to the growth of a strong coding culture within the institute.",
+      skills: [
+        "Mentoring",
+        "Code Debugging",
+        "Public Speaking",
+        "Time Management",
+        "Corporate Outreach",
+      ],
+    },
   ];  
